@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { Github, Linkedin, Mail, Code, Brain, Eye } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
+import img1 from './img1.jpeg';
 
 const Hero: React.FC = () => {
   const { theme } = useTheme();
@@ -98,13 +99,12 @@ const Hero: React.FC = () => {
           <div className="relative">
             <div className={`absolute inset-0 rounded-full ${theme === 'dark' ? 'bg-blue-600' : 'bg-blue-200'} blur-3xl opacity-20 transform -rotate-6`}></div>
             <img 
-              src="/src/components/img1.jpeg" 
+              src="/images/img1.jpeg"
               alt="Profile" 
               className="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-white dark:border-gray-800 shadow-2xl"
             />
           </div>
-          
-        </div>
+          </div>
       </div>
     </section>
   );
