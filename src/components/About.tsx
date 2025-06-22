@@ -43,15 +43,16 @@ const About: React.FC = () => {
         
         <div className="max-w-4xl mx-auto">
           <p className="text-gray-700 dark:text-gray-300 text-lg mb-8 leading-relaxed">
-            I'm a passionate software engineering student with a deep interest in solving complex problems through technology. 
-            My journey in tech began with simple programming projects but quickly evolved into a dedication to mastering 
-            multiple programming paradigms and creating impactful applications.
+           I'm a passionate and driven Engineering student with a specialization in Machine Learning, Deep Learning, and Full Stack Development.
+            I’ve built a range of impactful projects — from a Deepfake Detection System using CNN, a women's safety application, to scalable web platforms using React.
+            js and Node.js — blending innovation with purpose. My goal is to turn complex problems into meaningful solutions.
           </p>
           
           <p className="text-gray-700 dark:text-gray-300 text-lg mb-12 leading-relaxed">
-            Currently pursuing a Bachelor's degree in Engineering, I focus on combining theoretical knowledge with practical 
-            implementation. I enjoy collaborating on team projects and constantly seek opportunities to learn and grow in this 
-            ever-evolving field.
+           My expanding skill set includes Prompt Engineering, Generative AI, and Project Management, backed by certifications from Microsoft, IBM, and LinkedIn. Technically, I work with Python, Java, CNN, NLP, and full-stack tools like MongoDB, React.js, and Node.js.
+            I’m proud to have won 1st Prize for the IoT project “Bheem Converter” and to have deployed deep learning models for real-world medical and safety use cases. I'm always looking to collaborate, intern, or contribute to innovative tech initiatives.
+
+
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
