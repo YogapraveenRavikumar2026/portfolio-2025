@@ -10,10 +10,10 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <h2 className="text-2xl font-bold mb-2">
-              <span className="text-blue-400">Alex</span> Chen
+              <span className="text-blue-400">Yogapraveen</span> Ravikumar
             </h2>
             <p className="text-gray-400">
-              Software Engineering Student
+              Artificial Intelligence and Machine Learning student
             </p>
           </div>
           
@@ -33,8 +33,8 @@ const Footer: React.FC = () => {
             <div className="flex space-x-4">
               <a 
                 href="https://github.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
+                target="https://github.com/praveenkakashi2005" 
+                rel="https://github.com/praveenkakashi2005"
                 className="text-gray-400 hover:text-blue-400 transition-colors"
                 aria-label="GitHub"
               >
@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
             Made with <Heart size={18} className="mx-1 text-red-500" /> and React
           </p>
           <p className="mt-2">
-            &copy; {currentYear} Alex Chen. All rights reserved.
+            &copy; {currentYear} Yogapraveen R. All rights reserved.
           </p>
         </div>
       </div>

@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
           
           <div className="flex space-x-6">
             <a 
-              href="https://github.com" 
+              href="https://github.com/praveenkakashi2005" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
               <Linkedin size={24} />
             </a>
             <a 
-              href="mailto:contact@example.com"
+              href="mailto:yogagkn@gmail.com"
               className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               aria-label="Email"
             >
