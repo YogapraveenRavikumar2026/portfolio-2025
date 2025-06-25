@@ -51,7 +51,7 @@ const Education: React.FC = () => {
             
             <div className="md:w-2/3 p-6">
               <h4 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
-                Computer Science & Engineering
+                Computer Science & Engineering (AI&ML)
               </h4>
               <p className="text-gray-600 dark:text-gray-400 mb-4">
                 Pursuing a comprehensive engineering program focused on computer science fundamentals, 
