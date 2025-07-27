@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Landing</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', Arial, sans-serif;
+      background: #181a20;
+      color: #fff;
+      overflow: hidden;
+    }
+    body {
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+      min-height: 100vh;
+    }
+    .bg-video {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: 1;
+      pointer-events: none;
+      background: #181a20;
+    }
+    .overlay {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(20, 22, 30, 0.55);
+      z-index: 2;
+      pointer-events: none;
+    }
+    .center-content {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 3;
+      text-align: center;
+      width: 90vw;
+      max-width: 700px;
+    }
+    .center-content h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+      color: #fff;
+      text-shadow: 0 0 24px #00f0ff, 0 0 8px #232946;
+    }
+    .center-content p {
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: #b0b8d1;
+      text-shadow: 0 0 12px #232946;
+    }
+    .glow-cursor {
+      position: fixed;
+      top: 0; left: 0;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 10;
+      background: radial-gradient(circle, #00f0ff 0%, #232946 80%, transparent 100%);
+      box-shadow: 0 0 40px 10px #00f0ff99, 0 0 0 0 #232946;
+      mix-blend-mode: lighten;
+      opacity: 0.7;
+      transition: background 0.2s;
+      transform: translate(-50%, -50%);
+      will-change: transform;
+    }
+    @media (max-width: 600px) {
+      .center-content h1 { font-size: 2rem; }
+      .center-content p { font-size: 1rem; }
+      .glow-cursor { width: 36px; height: 36px; }
+    }
+  </style>
+</head>
+<body>
+  <video class="bg-video" src="/Backgroundtheme.mp4" autoplay loop muted playsinline></video>
+  <div class="overlay"></div>
+  <div class="center-content">
+    <h1>Welcome to My Portfolio</h1>
+    <p>AI/ML Enthusiast & Full Stack Developer. Explore my work below.</p>
+  </div>
+  <div class="glow-cursor" id="glowCursor"></div>
+  <script>
+    const cursor = document.getElementById('glowCursor');
+    document.addEventListener('mousemove', (e) => {
+      cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+    });
+    // Hide cursor on touch devices
+    function isTouchDevice() {
+      return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+    }
+    if (isTouchDevice()) {
+      cursor.style.display = 'none';
+    }
+  </script>
+</body>
+</html> 

@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import { Github, Linkedin, Mail, Code, Brain, Eye } from 'lucide-react';
+import { Github, Linkedin, Mail, Code } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
-import img1 from './img1.jpeg';
 
 const Hero: React.FC = () => {
   const { theme } = useTheme();
@@ -38,15 +37,14 @@ const Hero: React.FC = () => {
     >
       <div className="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 md:pr-10">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-gray-900 dark:text-white leading-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white leading-tight whitespace-nowrap">
             Hi, I'm <span className="text-blue-600 dark:text-blue-400">Yogapraveen Ravikumar</span>
           </h1>
-          <h2 className="text-xl md:text-2xl font-medium mb-6 text-gray-700 dark:text-gray-300">
+          <h2 className="text-xl md:text-2xl font-medium mb-6 text-gray-200">
             Artificial Intelligence and Machine Learning  student
           </h2>
-          <p className="text-gray-600 dark:text-gray-400 mb-8 text-lg leading-relaxed">
-            Passionate about creating innovative solutions through code. 
-            Focused on AI/ML, Full Stack Development, and Computer Vision.
+          <p className="text-gray-300 mb-8 text-lg leading-relaxed">
+            Turning ideas into intelligent solutions using AI, Full Stack Development, and Computer Vision.
           </p>
           
           <div className="flex flex-wrap gap-4 mb-8">
@@ -59,7 +57,7 @@ const Hero: React.FC = () => {
             </a>
             <a 
               href="#projects"
-              className="px-6 py-3 border border-gray-300 dark:border-gray-700 hover:border-blue-600 dark:hover:border-blue-400 text-gray-900 dark:text-white font-medium rounded-lg transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 flex items-center"
+              className="px-6 py-3 border border-gray-400 hover:border-white text-white font-medium rounded-lg transition-colors hover:bg-white hover:text-gray-900 flex items-center"
             >
               <Code className="w-5 h-5 mr-2" />
               View My Work
@@ -71,7 +69,7 @@ const Hero: React.FC = () => {
               href="https://github.com/praveenkakashi2005" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              className="text-gray-300 hover:text-white transition-colors"
               aria-label="GitHub"
             >
               <Github size={24} />
@@ -80,14 +78,14 @@ const Hero: React.FC = () => {
               href="https://linkedin.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              className="text-gray-300 hover:text-white transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin size={24} />
             </a>
             <a 
               href="mailto:yogagkn@gmail.com"
-              className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              className="text-gray-300 hover:text-white transition-colors"
               aria-label="Email"
             >
               <Mail size={24} />

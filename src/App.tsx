@@ -18,7 +18,7 @@ function App() {
 
   return (
     <ThemeProvider>
-      <div className="min-h-screen transition-colors duration-300 dark:bg-gray-900 bg-gray-50">
+      <div className="min-h-screen transition-colors duration-300">
         <div className={`transition-opacity duration-1000 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
           <Header />
           <main>
