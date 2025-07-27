@@ -95,28 +95,53 @@ const Education: React.FC = () => {
                   <Award size={20} className="text-blue-600 dark:text-blue-400" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-gray-800 dark:text-gray-200">Machine Learning Specialization</h4>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm">Coursera - 2023</p>
+                  <h4 className="font-medium text-gray-800 dark:text-gray-200">Generative AI</h4>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">Microsoft</p>
                 </div>
               </div>
-              
               <div className="flex items-start">
                 <div className="p-2 bg-blue-100 dark:bg-blue-900 rounded-full mr-4">
                   <Award size={20} className="text-blue-600 dark:text-blue-400" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-gray-800 dark:text-gray-200">Full Stack Web Development</h4>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm">Udemy - 2022</p>
+                  <h4 className="font-medium text-gray-800 dark:text-gray-200">Python Zero to Hero</h4>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">GUVI</p>
                 </div>
               </div>
-              
               <div className="flex items-start">
                 <div className="p-2 bg-blue-100 dark:bg-blue-900 rounded-full mr-4">
                   <Award size={20} className="text-blue-600 dark:text-blue-400" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-gray-800 dark:text-gray-200">Computer Vision with OpenCV</h4>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm">edX - 2022</p>
+                  <h4 className="font-medium text-gray-800 dark:text-gray-200">AI Foundation</h4>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">Infosys Springboard</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <div className="p-2 bg-blue-100 dark:bg-blue-900 rounded-full mr-4">
+                  <Award size={20} className="text-blue-600 dark:text-blue-400" />
+                </div>
+                <div>
+                  <h4 className="font-medium text-gray-800 dark:text-gray-200">Machine Learning</h4>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">Novi-Tech</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <div className="p-2 bg-blue-100 dark:bg-blue-900 rounded-full mr-4">
+                  <Award size={20} className="text-blue-600 dark:text-blue-400" />
+                </div>
+                <div>
+                  <h4 className="font-medium text-gray-800 dark:text-gray-200">Java Foundation</h4>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">Infosys Springboard</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <div className="p-2 bg-blue-100 dark:bg-blue-900 rounded-full mr-4">
+                  <Award size={20} className="text-blue-600 dark:text-blue-400" />
+                </div>
+                <div>
+                  <h4 className="font-medium text-gray-800 dark:text-gray-200">Data Structures in C</h4>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">Great Learning</p>
                 </div>
               </div>
             </div>
