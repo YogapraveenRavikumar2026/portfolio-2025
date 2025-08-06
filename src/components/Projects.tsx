@@ -16,7 +16,7 @@ const projectsData: Project[] = [
     description: "Used analytics to study user engagement and behavior, applying sentiment analysis and predictive tools for insight-driven decisions.",
     image: "https://images.pexels.com/photos/8088489/pexels-photo-8088489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     tags: ["MongoDB", "Express.js", "React.js", "Node.js"],
-    github: "https://github.com/praveenkakashi2005/SMA-Main-project1",
+    github: "https://github.com/YogapraveenRavikumar2026/SMA-Main-project1",
     demo: "https://example.com"
   },
   {
@@ -24,7 +24,7 @@ const projectsData: Project[] = [
     description: "A full-stack e-commerce application with user authentication, product management, shopping cart, and payment integration.",
     image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     tags: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-    github: "https://github.com/praveenkakashi2005/FSD_project",
+    github: "https://github.com/YogapraveenRavikumar2026/FSD_project",
     demo: "https://example.com"
   },
   {
@@ -32,14 +32,14 @@ const projectsData: Project[] = [
     description: "his project implements a deep learning-based object detection system that accurately identifies and classifies multiple objects within images or video streams in real time.",
     image: "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     tags: ["Python","TensorFlow ", " PyTorch ", "OpenCV", "YOLO ", "Faster R-CNN"],
-    github: "https://github.com/praveenkakashi2005/dl-object-detection"
+    github: "https://github.com/YogapraveenRavikumar2026/dl-object-detection"
   },
   {
-    title: "Natural Language Processing Chatbot",
-    description: "An intelligent chatbot that uses NLP techniques to understand and respond to user queries in a conversational manner.",
-    image: "https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    tags: ["Python", "NLTK", "SpaCy", "Flask", "Machine Learning"],
-    github: "https://github.com/yourusername/nlp-chatbot"
+    title: "Women Safety Alert System",
+    description: "A real-time computer vision-based alert system designed for women's safety. Utilizes deep learning and machine learning algorithms to detect threats and send instant alerts, integrating with mobile and IoT devices for rapid response.",
+    image: "/projectImage/womensaftyImg.jpg",
+    tags: ["Python", "OpenCV", "TensorFlow", "Deep Learning", "IoT", "Alert System"],
+    github: "https://github.com/YogapraveenRavikumar2026/women-safty-"
   }
 ];
 
