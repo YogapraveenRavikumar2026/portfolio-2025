@@ -32,9 +32,9 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-3">Connect</h3>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com" 
-                target="https://github.com/praveenkakashi2005" 
-                rel="https://github.com/praveenkakashi2005"
+                href="https://github.com/YogapraveenRavikumar2026" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-blue-400 transition-colors"
                 aria-label="GitHub"
               >
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
               </a>
               
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/yogapraveen-ravikumar-33507a2bb/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-blue-400 transition-colors"

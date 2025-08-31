@@ -66,7 +66,7 @@ const Hero: React.FC = () => {
           
           <div className="flex space-x-6">
             <a 
-              href="https://github.com/praveenkakashi2005" 
+              href="https://github.com/YogapraveenRavikumar2026" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white transition-colors"
@@ -75,7 +75,7 @@ const Hero: React.FC = () => {
               <Github size={24} />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/yogapraveen-ravikumar-33507a2bb/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white transition-colors"

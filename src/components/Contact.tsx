@@ -128,7 +128,7 @@ const Contact: React.FC = () => {
               <h4 className="font-medium text-gray-800 dark:text-gray-200 mb-4">Connect with me:</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com/praveenkakashi2005" 
+                  href="https://github.com/YogapraveenRavikumar2026" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full text-gray-600 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-blue-900 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -140,8 +140,8 @@ const Contact: React.FC = () => {
                 </a>
                 
                 <a 
-                  href="https://linkedin.com/in/yogapraveen-ravikumar-33507a2bb" 
-                  target="linkedin.com/in/yogapraveen-ravikumar-33507a2bb" 
+                  href="https://www.linkedin.com/in/yogapraveen-ravikumar-33507a2bb/" 
+                  target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full text-gray-600 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-blue-900 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   aria-label="LinkedIn"
