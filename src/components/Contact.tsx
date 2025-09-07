@@ -152,14 +152,15 @@ const Contact: React.FC = () => {
                 </a>
                 
                 <a 
-                  href="https://twitter.com" 
+                  href="https://leetcode.com/u/praveen532005/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full text-gray-600 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-blue-900 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                  aria-label="Twitter"
+                  className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full text-gray-600 dark:text-gray-400 hover:bg-orange-100 dark:hover:bg-orange-900 hover:text-orange-600 dark:hover:text-orange-400 transition-colors"
+                  aria-label="LeetCode"
+                  title="LeetCode Profile"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                    <path d="M22 14.355c0-.74-.564-1.345-1.26-1.345H10.67c-.696 0-1.26.605-1.26 1.34v.68c0 .35.14.683.39.93l5.31 5.23c.39.38 1.02.38 1.41 0l5.31-5.23c.25-.247.39-.58.39-.93v-.685zM12.38 2.086a1.17 1.17 0 0 0-1.09 0L1.27 7.355a1.17 1.17 0 0 0 0 2.06l10.02 5.27c.36.19.82.19 1.18 0l10.02-5.27a1.17 1.17 0 0 0 0-2.06L12.38 2.086z"/>
                   </svg>
                 </a>
               </div>

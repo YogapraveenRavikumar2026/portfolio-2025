@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { BookOpen, Award } from 'lucide-react';
+import { BookOpen, Award, Download } from 'lucide-react';
 
 const certifications = [
   {
@@ -29,7 +29,7 @@ const certifications = [
 ];
 
 const Education: React.FC = () => {
-  const [selectedTab, setSelectedTab] = useState<'education' | 'certifications'>('education');
+  const [selectedTab, setSelectedTab] = useState<'education' | 'certifications' | 'resume'>('education');
   const [zoomOpen, setZoomOpen] = useState(false);
   const [zoomedCert, setZoomedCert] = useState<null | {name: string, imgSrc: string}>(null);
   const educationRef = useRef<HTMLDivElement>(null);
@@ -86,12 +86,22 @@ const Education: React.FC = () => {
             >
               Certifications
             </button>
+            <button
+              className={`px-6 py-2 rounded-t-lg font-semibold focus:outline-none transition-all duration-300 ml-2 z-10 ${selectedTab === 'resume' ? 'text-blue-700 dark:text-blue-300 scale-105 shadow-lg' : 'text-gray-800 dark:text-gray-300'}`}
+              onClick={() => setSelectedTab('resume')}
+            >
+              Resume
+            </button>
             {/* Animated sliding highlight bar */}
             <span
               className={`absolute bottom-0 left-0 h-1 bg-gradient-to-r from-blue-400 via-blue-600 to-blue-400 rounded transition-all duration-500 ease-in-out z-0`}
               style={{
-                width: '140px',
-                transform: selectedTab === 'education' ? 'translateX(0)' : 'translateX(148px)',
+                width: '120px',
+                transform: selectedTab === 'education' 
+                  ? 'translateX(0)' 
+                  : selectedTab === 'certifications'
+                    ? 'translateX(148px)'
+                    : 'translateX(296px)',
                 boxShadow: '0 2px 8px 2px rgba(59,130,246,0.18)',
               }}
             />
@@ -106,10 +116,10 @@ const Education: React.FC = () => {
                 <p className="text-blue-100 text-center mt-2">2022 - 2026</p>
               </div>
               <div className="md:w-2/3 p-6">
-                <h4 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
-  Computer Science & Engineering (AI&ML)
-</h4>
-<p className="text-gray-600 dark:text-gray-400 mb-4">
+                <h4 className="text-xl font-semibold text-gray-900 dark:text-white">
+                  Computer Science & Engineering (AI&ML)
+                </h4>
+<p className="text-gray-600 dark:text-gray-400 mb-4 mt-2">
   Pursuing a comprehensive engineering program focused on computer science fundamentals, 
   software development, and specialized tracks in AI and machine learning.
 </p>
@@ -169,6 +179,29 @@ const Education: React.FC = () => {
     </div>
   )}
 </div>
+               </div>
+             </div>
+           )}
+           {selectedTab === 'resume' && (
+             <div className="bg-gray-50 dark:bg-gray-800 rounded-lg shadow-md p-8 text-center">
+               <div className="max-w-2xl mx-auto">
+                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">My Resume</h3>
+                 <p className="text-gray-600 dark:text-gray-300 mb-8">
+                   Download my resume to learn more about my professional experience, skills, and achievements.
+                 </p>
+                 <a 
+                   href="/YOGAPRAVEEN-RAVIKUMAR-FlowCV-Resume-20250904 (1).pdf" 
+                   download
+                   className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 text-lg font-medium"
+                 >
+                   <Download size={20} className="mr-2" />
+                   Download Resume
+                 </a>
+                 <div className="mt-8">
+                   <p className="text-gray-500 dark:text-gray-400 text-sm">
+                     File: YOGAPRAVEEN-RAVIKUMAR-FlowCV-Resume-20250904 (1).pdf
+                   </p>
+                 </div>
                </div>
              </div>
            )}
