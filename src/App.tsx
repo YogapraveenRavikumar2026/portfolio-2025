@@ -4,7 +4,7 @@ import { ThemeProvider } from './context/ThemeContext';
 import Navbar from './components/Navbar';
 import Hero from './components/HeroNew';
 import About from './components/About';
-import Skills from './components/Skills';
+import FloatingSkills from './components/FloatingSkills';
 import Projects from './components/ProjectsNew';
 import Education from './components/Education';
 import Contact from './components/Contact';
@@ -34,7 +34,7 @@ function App() {
             <main>
               <Hero />
               <About />
-              <Skills />
+              <FloatingSkills />
               <Projects />
               <Education />
               <Contact />
