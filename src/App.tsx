@@ -10,6 +10,7 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollProgress from './components/ScrollProgress';
+import Chatbot from './components/Chatbot';
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -40,6 +41,7 @@ function App() {
               <Contact />
             </main>
             <Footer />
+            <Chatbot />
           </motion.div>
         </AnimatePresence>
       </div>
